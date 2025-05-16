@@ -1,0 +1,21 @@
+{
+    "language": "tr",
+    "label_printer": {
+        "paper_width": 10.0,
+        "paper_height": 5.0,
+        "output_directory": "C:\\Users\\MG\\Desktop\\MGM\\019_Coskun_Terzi_Adisyon\\labels"
+    },
+    "currency": {
+        "name": "Turkish Lira",
+        "symbol": "\u20ba",
+        "position": "after"
+    },
+    "database": {
+        "file": "C:\\Users\\MG\\Desktop\\MGM\\019_Coskun_Terzi_Adisyon\\tailor_shop.db"
+    },
+    "ui": {
+        "font_size": 12,
+        "confirm_on_exit": true,
+        "confirm_on_print": true
+    }
+}

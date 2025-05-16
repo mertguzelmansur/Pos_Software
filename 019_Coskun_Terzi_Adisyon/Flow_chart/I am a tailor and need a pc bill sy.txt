@@ -1,0 +1,17 @@
+I am a tailor and need a pc bill system. I will keep my customer info" name,surname,phone number,location,last what kind of clothes repeaired and the its price also when reapired".
+
+I will have a menu or a selection menu for what kind of repair service needed that time I will choose the repair type and how many clothes then it gonna calculate and show the price then after choose the type, its gonna ask the name of the customer;
+
+if the customer already assigned before it will show while I type the name of them or I will able to open a pop up to save the customer info. after saved the customer info, it gonna Show the result preview of the template of the what will be send to label printer. Thus I will stick the label on the clothes for not be lost while I am repair.
+
+Thus this whole program reason is that:
+
+I will have a label printer around 10x5 cm sticky paper.
+I will see the info: 
+"name surname,
+phone number,
+cloth type and what repair service paid or what needed(at the first already choosed),
+the date of given the cloth.
+Also customer note"
+
+Also in program I will have a customer database to save all them.

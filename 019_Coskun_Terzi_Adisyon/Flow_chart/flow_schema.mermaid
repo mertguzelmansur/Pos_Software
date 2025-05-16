@@ -1,0 +1,36 @@
+flowchart TD
+    A[Start] --> B{Customer Exists?}
+    B -->|Yes| C[Search Customer]
+    B -->|No| D[New Customer Registration]
+    
+    C --> E[Select Customer from Database]
+    D --> F[Enter Customer Details]
+    F --> G[Save to Customer Database]
+    G --> H[Customer Selected]
+    E --> H
+    
+    H --> I[Service Selection Screen]
+    I --> J[Select Repair Type]
+    J --> K[Enter Quantity]
+    K --> L[Calculate Price]
+    
+    L --> M[Add Customer Notes]
+    M --> N[Preview Bill & Label]
+    N --> O{Confirm?}
+    O -->|No| N
+    O -->|Yes| P[Print Label]
+    
+    P --> Q[Save Transaction]
+    Q --> R[End]
+    
+    subgraph Database
+    DB1[(Customer Database)]
+    DB2[(Service Types Database)]
+    DB3[(Transactions Database)]
+    end
+    
+    D -.-> DB1
+    G -.-> DB1
+    C -.-> DB1
+    J -.-> DB2
+    Q -.-> DB3
