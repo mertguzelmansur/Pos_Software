@@ -1,0 +1,6 @@
+*.db
+license.json
+labels/
+temp/
+logs/
+__pycache__/
